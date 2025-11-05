@@ -5,7 +5,7 @@ export default function CVPage() {
     <SafeAreaView style={{ flex: 1, backgroundColor: '#0f0f14' }}>
       <ScrollView contentContainerStyle={styles.container}>
         <Image
-          source={require('../../assets/images/sg.jpg')} // relative path
+          source={require('../../assets/images/sg.jpg')} 
           style={styles.image}
         />
 
@@ -69,7 +69,7 @@ export default function CVPage() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 30, // extra padding on top in addition to SafeArea
+    paddingTop: 30,
     paddingHorizontal: 20,
     alignItems: 'center',
     backgroundColor: '#0f0f14',
@@ -129,11 +129,11 @@ const styles = StyleSheet.create({
     lineHeight: 20,
   },
   blueHighlight: {
-    color: '#498f91ff', // neon blue
+    color: '#498f91ff', 
     fontWeight: '600',
   },
   linkText: {
-    color: '#00bfff', // neon blue
+    color: '#00bfff', 
     textDecorationLine: 'underline',
     fontWeight: '600',
     fontSize: 14,
